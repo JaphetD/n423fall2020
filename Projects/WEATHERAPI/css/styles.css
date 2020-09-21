@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.fullSect {
+  min-height: 100%;
+}
+
+.home {
+  background-image: url("../img/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.home .callOutArea {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.35);
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.home h1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+.home p {
+  font-size: 2em;
+  color: white;
+}
+.home span {
+  font-size: 1.2em;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .home .callOutArea p {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  .home .callOutArea p {
+    font-size: 1em;
+  }
+}
+.about {
+  display: flex;
+  padding: 70px 20px 20px 20px;
+  box-sizing: border-box;
+}
+.about .leftSide {
+  width: 50%;
+  background-color: blue;
+}
+.about .rightSide {
+  width: 50%;
+  background-color: #cc0000;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #0373fc;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  overflow: auto;
+}
+nav a {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.inputBox {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.title {
+  background-color: #a2c1f2;
+}
+
+.container {
+  margin: auto;
+  background-color: #a2c1f2;
+  height: 100%;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  right: 0px;
+}
+
+body {
+  background-color: #a2c1f2;
+}
+
+.content {
+  background-color: #a2c1f2;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

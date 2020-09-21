@@ -1,0 +1,25 @@
+    {
+        "Students": [
+        {
+        "name": "Japhet",
+        "grade": "Senior",
+        "Classes": ["315", "215"]
+
+    },
+    {
+        "name": "Bob",
+        "grade": "Junior",
+        "Classes": ["315", "215", "654", "897"]
+    },
+    {
+        "name": "Jen",
+        "grade": "Freshman",
+        "Classes": ["315", "215"]
+    },
+    {
+        "name": "Nick",
+        "grade": "senior",
+        "Classes": ["315", "215"]
+    }
+        ]
+    }
