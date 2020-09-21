@@ -1,6 +1,6 @@
 var apiKey = "b33ccd22cc504fef8b2200821201409";
-var baseURL = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=`;
-var threeURL = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=3&q=`;
+var baseURL = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=`;
+var threeURL = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&days=3&q=`;
 var forecast = {};
 
 function getData(fullURL) {
