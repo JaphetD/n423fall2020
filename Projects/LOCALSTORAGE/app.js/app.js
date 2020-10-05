@@ -67,10 +67,10 @@ $("#newStudent").click(function (e) {
     // text = localStorage.getItem("studentsList", JSON.stringify(students));
     // document.getElementById("studentList").innerHTML = localStorage.getItem("studentList");
 
-    document.getElementById("newStudentList").innerHTML = "Name:" +  student+ ' ' + lastName + 
-    "<br>" + "Email:" +  email + "<br>" + "Phone:" + phone+ "<br>"
-    + "Age:"  + age + "<br>" + "Address:" +  address + "<br>" +
-    "Classes:" + classes;
+    document.getElementById("newStudentList").innerHTML ="<p>" + "Name:" + "</p>" +  student+ ' ' + lastName + 
+    "<br>" + "<p>" + "Email:" + "</p>" +  email  + "<p>" + "Phone:" + "</p>" + phone+ "<br>" + "<p>"
+    + "Age:" + "</p>" + age + "<br>" + "<p>"+ "Address:" + "</p>" +  address + "<br>" + "<p>" +
+    "Classes:" + "</p>" + classes;
 
 
 

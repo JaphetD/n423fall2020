@@ -1,8 +1,19 @@
+
+  h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 5px;
+  }
+
+
 #newStudentList {
     display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    margin: 0% auto;
+    width: 100%;
+    display: list-item;
+}
+
+#newStudentList p {
+    font-weight: bold;
 }
 
 
@@ -19,3 +30,46 @@ h2 {
     line-height: 1.6;
     white-space: pre-wrap;
 }
+
+form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.wrapper div {
+    margin-bottom: 15px;
+}
+div > input, div > label {
+    display: inline-block;
+}
+div > input {
+    width: 10%;
+}
+
+div > label {
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:lightgray;
+}
+
+.wrapper {
+    text-align: center;
+    display: block
+}
+
+.wrapperButtons {
+    text-align: center;
+}
+
