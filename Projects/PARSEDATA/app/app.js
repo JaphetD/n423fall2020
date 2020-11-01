@@ -55,6 +55,13 @@ function parseStudents(studentsArray){
          });
 }
 
+$.get(
+    "http://api.weatherapi.com/v1/forecast.json?key=f18c5377a1cc4e41aad192209201409&q=46051&days=1",
+    function (data) {
+      console.log("data ", data);
+    }
+  );
+
 $(document).ready(function () {    
 // getStudentData();
 addListener();

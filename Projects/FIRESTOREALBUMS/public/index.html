@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firestore Query Albums</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+
+    
+    <nav id="NavRect">
+      <a href="index.html">Home</a>
+      <a href="#">Kpop Albums</a>
+      <a href="#">Rap Albums</a>
+      <a href="#">Rock Albums</a>
+      <a href="#">Log in </a>
+      <a href="#">Sign up</a>
+  </nav>
+
+  <section class="fullSect home" id="title">
+    <div class="callOutArea">
+        <h1>Firestore Query Albums</h1>
+        <p>Rap/KPOP/Rock album lists are now available.</p>
+        <span>You can filter albums below</span>
+        <label for="albums">Choose an artist/band:</label><br>
+
+        <select name="albums" id="albums">
+          <option value=""></option>
+          <!-- Genre: Rock -->
+          <option value="Rock">Rock</option> 
+          <!-- Genre: Kpop -->
+          <option value="Kpop">Kpop</option>
+          <!-- Genre:Rap  -->
+          <option value="Rap">Rap</option>
+        </select>
+      
+    </div>
+</section>
+
+
+
+
+
+
+
+
+  <div class="content"></div>
+
+
+  <div class="fullContent"  id="everything">
+    
+  </div>
+
+     <div id="footer">&copy;2020 Japhet Diaz</div>
+
+   <!-- update the version number as needed -->
+   <script defer src="/__/firebase/8.0.0/firebase-app.js"></script>
+   <!-- include only the Firebase features as you need -->
+   <script defer src="/__/firebase/8.0.0/firebase-auth.js"></script>
+   <script defer src="/__/firebase/8.0.0/firebase-firestore.js"></script>
+   <!-- initialize the SDK after all desired features are loaded -->
+   <script defer src="/__/firebase/init.js"></script>
+
+
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+   <script src="lib/jquery-3.5.1.min.js"></script>
+   <script type="module" src="model/model.js"></script>
+   <script type="module" src="app/app.js"></script>
+  </body>
+</html>

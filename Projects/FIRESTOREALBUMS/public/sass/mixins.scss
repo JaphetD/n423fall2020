@@ -1,0 +1,6 @@
+@mixin default-button($radius: 10px, $bgColor: #ff412d){
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: $bgColor;
+    border-radius: $radius;
+  }

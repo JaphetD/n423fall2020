@@ -25,6 +25,13 @@ function getData(fullURL) {
             <p>Wind Degree: ${data.current.wind_degree}</p>
             <p>Wind Direction: ${data.current.wind_dir}</p>
             <p>Pressure Millibars: ${data.current.pressure_mb}</p>`);
+
+            $.get(
+                "http://api.weatherapi.com/v1/forecast.json?key=f18c5377a1cc4e41aad192209201409&q=46051&days=1",
+                function (data) {
+                  console.log("data ", data);
+                }
+              );
             
             // $.each(data.forecastday, function(idx, data) {
             //     $(".forecast-content").html(

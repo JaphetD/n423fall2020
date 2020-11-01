@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firestore Query</title>
+
+
+  </head>
+  <body>
+    <!-- This is a combo box -->
+<label for="classes">Choose a class:</label>
+
+<!-- This is our select box -->
+<select name="classes" id="classes">
+  <option value=""></option>
+  <option value="115">N115</option>
+  <option value="215">N215</option>
+  <option value="315">N315</option>
+  <option value="423">N423</option>
+</select>
+
+<!-- Going to display the students as we filter them -->
+<div class="content"></div>
+
+       <!-- update the version number as needed -->
+       <script defer src="/__/firebase/8.0.0/firebase-app.js"></script>
+       <!-- include only the Firebase features as you need -->
+       <script defer src="/__/firebase/8.0.0/firebase-auth.js"></script>
+       <script defer src="/__/firebase/8.0.0/firebase-firestore.js"></script>
+       <!-- initialize the SDK after all desired features are loaded -->
+       <script defer src="/__/firebase/init.js"></script>
+       <!-- Bringing in our own scripts -->
+       <script src="lib/jquery-3.5.1.min.js"></script>
+       <!-- To allow the model and the app to talk to each other we added type="module" -->
+       <!--In this case the app is going to talk to the model and pass information back and forth -->
+       <script type="module" src="model/model.js"></script>
+       <script type="module" src="app/app.js"></script>
+  </body>
+</html>

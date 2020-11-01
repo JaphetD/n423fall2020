@@ -1,0 +1,43 @@
+.home {
+  background-image: url("./FIRESTOREALBUMS/public/img/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.home .callOutArea {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.35);
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.home h1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+.home p {
+  font-size: 2em;
+  color: white;
+}
+.home span {
+  font-size: 1.2em;
+  background-color: red;
+  padding: 15px 35px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .home .callOutArea p {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  .home .callOutArea p {
+    font-size: 1em;
+  }
+}
