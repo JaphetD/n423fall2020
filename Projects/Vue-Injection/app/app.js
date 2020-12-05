@@ -5,7 +5,7 @@ function initListeners() {
         console.log(buttonID);
         $.get(`views/${buttonID}/${buttonID}.html`, (PageData) => {
             $("#app").html(PageData);
-            // pageListeners()
+            pageListeners()
             contactFormSubmit()
         })
     })

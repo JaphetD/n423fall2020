@@ -1,0 +1,35 @@
+.home {
+  background-image: url("../img/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-width: 500px;
+  min-height: 400px;
+
+}
+.home .callOutArea {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.35);
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.home h1 {
+  color: white;
+  font-size: 3.5em;
+  text-align: center;
+}
+.home p {
+  font-size: 2em;
+  color: white;
+}
+.home span {
+  font-size: 1.2em;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 10px;
+}
