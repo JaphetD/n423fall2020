@@ -48,7 +48,7 @@ function initListeners() {
         });
     });
 
-   $("#signup").click(function() {
+   $("#signupBtn").click(function() {
        console.log("it works")
        //the variables have to be the exact same (email, password)
        let email = $(".email").val();
