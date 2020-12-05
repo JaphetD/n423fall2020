@@ -22,7 +22,8 @@ This is the Github.io link: https://japhetd.github.io/n423fall2020/Projects/Fina
 <li>You can update your account display name 
 <li>You can add data to the docs with the Add button under profile 
 <li>You can log out and log in through Firebase 
-<li>You can view the data for the Ysera card from the Hearthstone database on the home page
+<li>You can view the data for the Ysera card from the RapidAPI Hearthstone database on the home page
+<li>https://rapidapi.com/omgvamp/api/hearthstone
 <li>There is a contact page where you can contact me 
 <li>You can view current popular decks hosted by the Firestore database on the deck constructer page 
 <li> You can filter by each deck or simply view all of the cards available
